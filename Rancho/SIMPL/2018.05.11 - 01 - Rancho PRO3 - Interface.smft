@@ -1,0 +1,37 @@
+<Device Model="PRO3" Name="PRO3.">
+   <Network Type="Cresnet" Id="04"/>
+   <Network Type="Ethernet" Id="05">
+      <Device Model="CEN-RFGW-EX" DeviceId="6A" Name="CEN-RFGW-EX (Shared Ethernet)">
+         <Network Type="RF">
+            <Device Model="MTX-3" DeviceId="09" Name="MTX-3 [TPR03][GAMEROOM]"/>
+            <Device Model="MTX-3" DeviceId="0A" Name="MTX-3 [TPR04][GUESTRM]"/>
+            <Device Model="MTX-3" DeviceId="0B" Name="MTX-3 [TPR05][ENTERTAIN]"/>
+            <Device Model="YALE-CTLL,YALE–CTDB,YALE–PBLL,YALE-PBDB,CLK-YL-YRD216,CLK-YL-YRD226,CLK-YL-YRD246,NTB-TS,YRD256-TSDB" DeviceId="10" Name="Yale Lock [LOCK_01] [KITCHEN DOOR]"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-RFGW-EX" DeviceId="6B" Name="CEN-RFGW-EX (Shared Ethernet)"/>
+      <Device Model="CEN-RFGW-EX" DeviceId="6C" Name="CEN-RFGW-EX (Shared Ethernet)">
+         <Network Type="RF">
+            <Device Model="MTX-3" DeviceId="09" Name="MTX-3 [TPR06]"/>
+            <Device Model="MTX-3" DeviceId="0A" Name="MTX-3 [TPR07]"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-RFGW-EX" DeviceId="6D" Name="CEN-RFGW-EX (Ethernet)">
+         <Network Type="RF">
+            <Device Model="MTX-3" DeviceId="09" Name="MTX-3 [TPR08]"/>
+            <Device Model="MTX-3" DeviceId="0A" Name="MTX-3 [TPR09]"/>
+            <Device Model="HR-150,HRI-150" DeviceId="10" Name="HR-150[TPR09]"/>
+            <Device Model="YALE-CTLL,YALE–CTDB,YALE–PBLL,YALE-PBDB,CLK-YL-YRD216,CLK-YL-YRD226,CLK-YL-YRD246,NTB-TS,YRD256-TSDB" DeviceId="11" Name="Yale Lock [LOCK_02] [GUESTHSE DOOR]"/>
+         </Network>
+      </Device>
+      <Device Model="TSW-750" DeviceId="90" Name="TSW-750[TP02][BACKDOOR]"/>
+      <Device Model="TSW-750" DeviceId="91" Name="TSW-750[TP03][THEATRE]"/>
+      <Device Model="TSW-750" DeviceId="92" Name="TSW-750[TP05][MASTER BED]"/>
+      <Device Model="TSW-750" DeviceId="93" Name="TSW-750[TP06][PANIC ROOM]"/>
+      <Device Model="TSW-1050" DeviceId="94" Name="TSW-1050[TP04][FRONT DOOR]"/>
+      <Device Model="TSW-750" DeviceId="95" Name="TSW-750[TP07][GUEST HOUSE]"/>
+      <Device Model="Crestron_App" DeviceId="FC" Name="Crestron App [TPR02]"/>
+      <Device Model="Crestron_App" DeviceId="FD" Name="Crestron App [TPR01]"/>
+      <Device Model="Core3 UI XPanel" DeviceId="FE" Name="XPanel 2.0 Smart Graphics [TP01]"/>
+   </Network>
+</Device>

@@ -1,0 +1,95 @@
+<Device Model="PRO3">
+   <Network Type="Cresnet" Id="04"/>
+   <Network Type="Ethernet" Id="05">
+      <Device Model="CEN-RFGW-EX" DeviceId="61" Name="CEN-RFGW-EX (Shared Ethernet)">
+         <Network Type="RF">
+            <Device Model="CLW-DIMEX-P" DeviceId="03" Name="MASTERSUITE READING LIGHT dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="04" Name="MASTER SUITE CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="05" Name="MASTER SUITE HERS HALFHOTS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="06" Name="MASTERSUITE PATIO dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="07" Name="MASTERHALL CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="08" Name="MASTER MAIN STAIRS CANS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0F" Name="MASTER MAIN STAIRS CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="10" Name="MASTER CLOSET HIS CANS CENTER dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="11" Name="MASTER BATH HIS CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="12" Name="MASTER BATH HIS SCONCES dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="13" Name="MASTER BATH HIS VANITY dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="14" Name="MASTER BATH HIS SHOWER dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="15" Name="MASTER BATH HERS TUB dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="16" Name="MASTER BATH HERS SHOWER dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="17" Name="MASTER BATH HERS SCONCES dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="18" Name="MASTER BATH HERS CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="19" Name="MASTER BATH HERS VANITY CAN dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1A" Name="MASTER BATH HERS VANITY dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1B" Name="MASTER CLOSET HERS ALL LIGHTS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1C" Name="MASTER SUITE HIS HALFHOTS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1D" Name="GREEN ROOM CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1E" Name="KITCHEN CANS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1F" Name="DINING CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="20" Name="DINING SCONCES dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="21" Name="KITCHEN PANTRY CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="22" Name="GREAT ROOM SCONCES dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="23" Name="OFFICE HALL CANS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="24" Name="KID HALL dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="25" Name="KID BATH CHANDELIER dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="26" Name="KID BATH SCONCES dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="27" Name="KID HALL SCONCES dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="28" Name="KID ROOM CHANDELIER dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="29" Name="KID ROOM CANS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="2A" Name="KID ROOM READING LIGHTS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="2B" Name="POWDER ROOM SCONCES dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="2C" Name="GUEST ROOM CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="2D" Name="LAUNDRY ROOM dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="2E" Name="MAIN HALL dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="2F" Name="LAUNDRY HALL dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="30" Name="MASTER CLOSET HERS SAFERM switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="31" Name="MASTER BATH HERS TOILET dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="32" Name="MASTER BATH HERS TOILET FAN switch"/>
+            <Device Model="CLW-DIMEX-E" DeviceId="33" Name="MASTER BATH HIS TOILET dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="34" Name="PANIC ROOM BOOKCASE dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="35" Name="PANIC ROOM SCONCES dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="36" Name="FRONT STAIR LIGHTS  switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="37" Name="FRONT ATRIUM LIGHTS dimmer"/>
+            <Device Model="CLW-DIMEX-E" DeviceId="38" Name="GUEST BATHROOM CANS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="39" Name="GUEST BATHROOM CHANDELIERS dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="3A" Name="GUEST ROOM CLOSET CAN switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="3B" Name="POWDER ROOM TOLIET dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="3C" Name="LAUNDRY ROOM TOILET switch"/>
+            <Device Model="CLW-SWEX-P" DeviceId="3D" Name="BACK PARKING AREA SCONCES switch"/>
+            <Device Model="CLW-SWEX-P" DeviceId="3E" Name="GARAGE LIGHTS switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="3F" Name="BBQ LIGHTS dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="40" Name="GREEN RM BBQ FAN switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="41" Name="GREEN RM BBQ LIGHT dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="42" Name="BUTLERS PANTRY COUNTER switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="43" Name="BUTLERS PANTRY dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="44" Name="BACK OF THE HOUSE PATIO dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="45" Name="GREAT RM CHANDELIERS dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="46" Name="BACK OF THE HOUSE PATIO FAN switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="47" Name="BACK OF THE HOUSE PATIO GREEN LIGHTS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="48" Name="BACK OF THE HOUSE LANDSCAPE dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="49" Name="BACK OF HOUSE PATIO CHANDELIERS"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="4A" Name="EMRGENCY FLOOD LIGHTS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="4B" Name="OFFICE CHANDELIERS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="4C" Name="OFFICE OUTLETS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="4D" Name="BACK OF THE HOUSE OFFICE PATIO dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="4E" Name="KID ROOM CLOSET switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="4F" Name="MASTER SUITE PATIO dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="50" Name="RED ROOM CANS dimmer"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="51" Name="GYM CANS dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="52" Name="GREEN RM BATHROOM switch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="53" Name="KITCHEN SINK CAN dimmer"/>
+            <Device Model="CLW-SWEX-P" DeviceId="54" Name="BACK OF HOUSE GAME PATIO switch"/>
+            <Device Model="CLW-SWEX-P" DeviceId="55" Name="POOL BATHRM LIGHTS switch"/>
+            <Device Model="CLW-SWEX-P" DeviceId="56" Name="POOL BATHRM CLOSET switch"/>
+            <Device Model="CLW-SWEX-E" DeviceId="57" Name="GREEN ROOM CHADELIER CLONE"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-RFGW-EX" DeviceId="65" Name="CEN-RFGW-EX BACKYARD">
+         <Network Type="RF">
+            <Device Model="CLW-DIMEX-P" DeviceId="03" Name="BACK OF THE HOUSE PATHWAY dimmer"/>
+            <Device Model="CLW-DELVEX-P" DeviceId="04" Name="BACK OF THE HOUSE TREE LIGHTS dimmer"/>
+            <Device Model="CLW-SWEX-E" DeviceId="05" Name="BACK OF THE HOUSE STRINGLIGHTS switch"/>
+         </Network>
+      </Device>
+   </Network>
+</Device>

@@ -1,0 +1,77 @@
+[
+ObjTp=FSgntr
+Sgntr=FlashComposite
+;Increment this version when CED file format changes
+RelVrs=2
+IntStrVrs=1
+VTProeVer=5.4.17
+]
+[
+ObjTp=Symbol
+Name=RANCHOTSW750 V2.1_DF-SOURCE APPLETV_APPLETV TRANSPORT MAIN.ced
+Hint=APPLETV TRANSPORT MAIN (Smart Object ID=52)
+Code=20
+GUID=EC8AD1A3-D9B3-4077-AD6D-840F07FF3298
+SmplCName=RANCHOTSW750 V2.1_DF-SOURCE APPLETV_APPLETV TRANSPORT MAIN.ced
+SMWRev=4.02.19
+Expand=expand_random
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=4
+MaxVariableInputs=4
+MinVariableOutputs=4
+MaxVariableOutputs=4
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=20
+CedH=20
+SmartObjId=52d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=20
+Tp=1
+HD=TRUE
+DV=52d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=20
+Name=RANCHOTSW750 V2.1_DF-SOURCE APPLETV_APPLETV TRANSPORT MAIN.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]

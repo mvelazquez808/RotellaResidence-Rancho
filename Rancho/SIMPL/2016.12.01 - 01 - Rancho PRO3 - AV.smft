@@ -1,0 +1,8 @@
+<Device Model="PRO3.">
+   <Network Type="Cresnet" Id="04"/>
+   <Network Type="Ethernet" Id="05">
+      <Device Model="DM-MD16x16" DeviceId="51"/>
+      <Device Model="SWAMP-24x8 (Ethernet)." DeviceId="52"/>
+      <Device Model="CEN-TRACK" DeviceId="70"/>
+   </Network>
+</Device>

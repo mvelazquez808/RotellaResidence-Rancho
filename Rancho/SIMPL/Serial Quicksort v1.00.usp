@@ -1,0 +1,115 @@
+                      
+
+#DEFINE_CONSTANT MAX_IO	48
+
+
+DIGITAL_INPUT ENABLE;
+
+STRING_INPUT _SKIP_, IN[ MAX_IO ][ 255 ];
+
+
+ANALOG_OUTPUT INDEX_COUNT, _SKIP_, INDEX[ MAX_IO ];
+
+Integer giSortedIndices[ MAX_IO ];
+String giArray[ MAX_IO ][ 255 ];
+
+
+Function Swap( Integer i, Integer j )
+{
+	Integer t;
+	
+	t = giSortedIndices[ i ];
+	giSortedIndices[ i ] = giSortedIndices[ j ];
+	giSortedIndices[ j ] = t;	
+}
+
+Function Quicksort( Integer iStartIndex, Integer iEndIndex )
+{
+	Integer iLeftIndex, iRightIndex;
+	String sPivot[ 255 ];
+	
+	sPivot = giArray[ giSortedIndices[ iStartIndex ] ];
+	
+	If( iStartIndex < iEndIndex )
+	{
+		iLeftIndex = iStartIndex + 1;
+		iRightIndex = iEndIndex;		
+		
+		While( iLeftIndex < iRightIndex )
+		{
+			If( CompareStrings( giArray[ giSortedIndices[ iLeftIndex ] ], sPivot ) = 0 ||
+				CompareStrings( giArray[ giSortedIndices[ iLeftIndex ] ], sPivot ) = -1 )
+			{
+				iLeftIndex = iLeftIndex + 1;
+			}
+			Else If( 	CompareStrings( giArray[ giSortedIndices[ iRightIndex ] ], sPivot ) = 0 ||
+						CompareStrings( giArray[ giSortedIndices[ iRightIndex ] ], sPivot ) = 1 )
+			{
+				iRightIndex = iRightIndex - 1;
+			}
+			Else
+			{
+				Swap( iLeftIndex, iRightIndex ); 	
+			} 
+		}
+		If( CompareStrings( giArray[ giSortedIndices[ iLeftIndex ] ], sPivot ) = -1 )
+		{
+		    Swap( iLeftIndex, iStartIndex );
+		    iLeftIndex = iLeftIndex - 1;
+		}
+		Else
+		{
+			iLeftIndex = iLeftIndex - 1;
+			Swap( iLeftIndex, iStartIndex );
+		}
+		Quicksort( iStartIndex, iLeftIndex );
+		Quicksort( iRightIndex, iEndIndex );		 		
+	}
+}
+
+Function Go( )
+{
+	Integer i, iCount;
+	
+	
+	iCount = 0;
+		
+	For( i = 1 To MAX_IO )
+	{
+		giSortedIndices[ i ] = i;
+		giArray[ i ] = IN[ i ];
+		
+		If( giArray[ i ] = "" )
+		{
+			giArray[ i ] = "~";
+		}
+		Else
+		{
+			iCount = iCount + 1; 
+		}
+	}
+	
+	Quicksort( 1, MAX_IO );
+	INDEX_COUNT = iCount;
+	 	
+	
+	For( i = 1 To MAX_IO )
+	{
+		INDEX[ i ] = giSortedIndices[ i ];
+	}	
+}
+
+CHANGE IN
+{
+	
+	If( ENABLE )
+	{
+	
+		Go( );			               
+	}
+}
+
+PUSH ENABLE
+{
+	Go( );	
+}
