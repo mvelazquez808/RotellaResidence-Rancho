@@ -1,6 +1,6 @@
-File Version	v3.03.00
-Modified Date	05/05/2019
-Modified Time	12:30:57
+File Version	v3.04.00
+Modified Date	04/29/2022
+Modified Time	07:42:59
 
 LoadID	LoadName	RoomID	DIM_setting	Ramp_time	Upper_limit	Lower_limit	TotalWattage
 146	GUEST ROOM CLOSET CAN	19	False	300	100	5	100
@@ -85,4 +85,5 @@ LoadID	LoadName	RoomID	DIM_setting	Ramp_time	Upper_limit	Lower_limit	TotalWattag
 221	BACK OF THE HOUSE TREE LIGHTS	30	True	300	100	5	50
 224	BACK OF THE HOUSE STRINGLIGHTS	30	True	300	100	5	100
 230	Accents	26	False	300	100	5	50
+233	Accents	30	True	300	100	5	50
 
