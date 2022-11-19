@@ -1,6 +1,6 @@
 File Version	v3.05.00
-Modified Date	11/17/2022
-Modified Time	11:08:14
+Modified Date	11/18/2022
+Modified Time	14:57:35
 
 LoadID	LoadName	RoomID	DIM_setting	Ramp_time	Upper_limit	Lower_limit	TotalWattage
 146	GUEST ROOM CLOSET CAN	19	False	300	100	5	100
